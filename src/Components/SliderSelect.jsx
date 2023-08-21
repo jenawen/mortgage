@@ -6,6 +6,7 @@ const SliderSelect = ({ data, setData }) => {
 
   return (
     <div>
+      {/**Slider 1 */}
       <SliderC
         onChange={(e, value) => {
           setData({
@@ -24,6 +25,7 @@ const SliderSelect = ({ data, setData }) => {
         label={"Home Value"}
         value={data.homeValue}
       />
+      {/**Slider 2 */}
       <SliderC
         onChange={(e, value) => {
           setData({
@@ -42,6 +44,7 @@ const SliderSelect = ({ data, setData }) => {
         label={"Down Payment"}
         value={data.downPayment}
       />
+      {/**Slider 3 */}
       <SliderC
         onChange={(e, value) => {
           setData({
@@ -60,6 +63,7 @@ const SliderSelect = ({ data, setData }) => {
         label={"Loan Amount"}
         value={data.loanAmount}
       />
+      {/**Slider 4 */}
       <SliderC
         onChange={(e, value) => {
           setData({
