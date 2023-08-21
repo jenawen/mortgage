@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import SliderC from "./Common/SliderC";
 
 const SliderSelect = ({ data, setData }) => {

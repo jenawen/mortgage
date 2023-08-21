@@ -1,4 +1,4 @@
-import React from "react";
+/* eslint-disable react/prop-types */
 import Slider from "@mui/material/Slider";
 import { Typography } from "@mui/material";
 import { Stack } from "@mui/system";

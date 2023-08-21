@@ -3,7 +3,7 @@ import Nav from "./Components/Nav";
 import Result from "./Components/Result/";
 import SliderSelect from "./Components/SliderSelect";
 import TenureSelect from "./Components/TenureSelect";
-import React, { useState } from "react";
+import { useState } from "react";
 import { Grid } from "@mui/material";
 import { Container } from "@mui/system";
 
