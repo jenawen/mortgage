@@ -3,7 +3,7 @@ import SliderC from "./Common/SliderC";
 
 const SliderSelect = ({ data, setData }) => {
   const bank_limit = 10000;
-
+  //crying i just need to add something
   return (
     <div>
       {/**Slider 1 */}
